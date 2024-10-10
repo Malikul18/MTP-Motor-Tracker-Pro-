@@ -30,11 +30,11 @@ d. Data Analitik: Informasi lengkap tentang riwayat penggunaan kendaraan dapat m
 ## Team Member :
 |      NRP      |       Nama      |    Jobdesk    |   Akun |
 | :-----------:|:----------------:| :------------:| :-----:|
-| 2122500038    | Malikul ula Al Farizi  | Programmer       | [Malikul18]
-| 2122500041    | Tegar Bagus Aditya         |   Data Analist  | [LEEEOOONNN]
-| 2122500046    | Aziza Octavia         |    UI/UX Designer      | [Azizaoct]
-| 2122500049    | Dikri Sadam Panca Sakti                | Hardware | [DKRSDMPNCSKT]
-| 2122500054    | Dwie Maulana Kalyana               | Project Manager     | [Dwiemaulana]
+| 2122500038    | Malikul ula Al Farizi  | Programmer       | [Malikul18] (https://github.com/Malikul18)
+| 2122500041    | Tegar Bagus Aditya         |   Data Analist  | [LEEEOOONNN] (https://github.com/LEEEOOONNN)
+| 2122500047    | Aziza Octavia         |    UI/UX Designer      | [Azizaoct] (https://github.com/Azizaoct)
+| 2122500049    | Dikri Sadam Panca Sakti                | Hardware | [DKRSDMPNCSKT] (https://github.com/DKRSDMPNCSKTI)
+| 2122500054    | Dwie Maulana Kalyana               | Project Manager     | [Dwiemaulana] (https://github.com/Dwiemaulana)
 
 
 # Komponen
