@@ -45,3 +45,6 @@ d. Data Analitik: Informasi lengkap tentang riwayat penggunaan kendaraan dapat m
 2. Sim 800L
 3. Sensor GPS
 4. Battery Li-on 3.7v
+
+# Pototype Figma
+- [Figma](https://www.figma.com/design/K79DKEpYAUl1oy9ZEVzn8G/Prototyping-in-Figma?node-id=0-1&node-type=canvas&t=O9agAbHADH6BsXUb-0)
