@@ -1,5 +1,5 @@
 # MTP-Motor-TrackerPro-
-<img src = "Assets/Logo.jpeg">
+<img src = "Asset/Logo MTP.jpeg">
 
 ## Optimalisasi Operasional dengan
 Pelacakan Realtime dan Kesehatan
