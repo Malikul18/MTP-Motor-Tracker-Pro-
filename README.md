@@ -40,7 +40,7 @@ d. Data Analitik: Informasi lengkap tentang riwayat penggunaan kendaraan dapat m
 
 # Pototype Figma
 Tampilan awal UI/UX MTP      |   
-<img src = "Asset/home.png"> | <img src = "Asset/Register blank.png">| <img src = "Asset/Register.png">
-<img src = "Asset/Loo in blank.png"> | <img src = "Asset/Log in.png">
+<img src = "Dokumentasi/home.png"> | <img src = "Dokumentasi/Register blank.png">| <img src = "Dokumentasi/Register.png">
+<img src = "Dokumentasi/Loo in blank.png"> | <img src = "Dokumentasi/Log in.png">
 - [Figma](https://www.figma.com/design/K79DKEpYAUl1oy9ZEVzn8G/Prototyping-in-Figma?node-id=0-1&node-type=canvas&t=O9agAbHADH6BsXUb-0)
 - Prototype *MTP* menggunakan Figma untuk UI/UX adalah sebuah desain antarmuka interaktif yang bertujuan untuk memvisualisasikan konsep dan alur pengguna dari sebuah aplikasi atau sistem yang sedang dikembangkan. Prototipe ini memungkinkan pengguna atau pemangku kepentingan untuk memahami bagaimana aplikasi akan berfungsi, termasuk navigasi, tata letak, dan interaksi antar elemen di dalamnya. Dalam Figma, prototipe *MTP* dapat mencakup elemen-elemen seperti tombol, form input, menu, serta transisi antar halaman atau skenario pengguna.
