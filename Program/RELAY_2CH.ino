@@ -1,51 +1,58 @@
-// Definisikan pin relay
-#define RELAY1 7  // Relay pertama terhubung ke pin digital 7
-#define RELAY2 8  // Relay kedua terhubung ke pin digital 8
+#define BLYNK_TEMPLATE_ID "TMPL667DMnRvl"
+#define BLYNK_TEMPLATE_NAME "Kontrol relay"
+#define BLYNK_AUTH_TOKEN "xYqn-lEY7k_U5ms9gfHdWRd1WVWdldYK"
+
+#include <WiFi.h>
+#include <WiFiClient.h>
+#include <BlynkSimpleEsp32.h>
+
+BlynkTimer timer;
+#define relay 2
+#define relay1 15
+int SW_relay = 0;
+int SW1_relay = 0;
+
+char auth[] = "xYqn-lEY7k_U5ms9gfHdWRd1WVWdldYK";
+const char* ssid = "--ssidwifianda--";
+const char* pass = "--passwifianda--";
 
 void setup() {
-  // Atur pin relay sebagai output
-  pinMode(RELAY1, OUTPUT);
-  pinMode(RELAY2, OUTPUT);
-
-  // Matikan kedua relay pada awalnya
-  digitalWrite(RELAY1, HIGH);
-  digitalWrite(RELAY2, HIGH);
-
-  // Mulai komunikasi Serial untuk kontrol melalui Serial Monitor
   Serial.begin(9600);
-  Serial.println("Relay Ready to go !");
-  Serial.println("Ketik ON1 untuk menghidupkan Relay 1, OFF1 untuk mematikan");
-  Serial.println("Ketik ON2 untuk menghidupkan Relay 2, OFF2 untuk mematikan");
+  pinMode(relay, OUTPUT);
+  pinMode(relay1, OUTPUT);
+  Blynk.begin(auth, ssid, pass);
+  Serial.println(("ESP32 - Relay MTP_Simulation"));
+  Serial.println();
 }
 
-void loop() {
-  // Cek jika ada data di Serial Monitor
-  if (Serial.available() > 0) {
-    // Baca data dari Serial Monitor
-    String command = Serial.readStringUntil('\n');
-    command.trim();  // Menghapus spasi di awal/akhir jika ada
+ void loop() {
+  Blynk.run();
+  timer.run();
+}
 
-    // Cek perintah untuk Relay 1
-    if (command == "ON1") {
-      digitalWrite(RELAY1, LOW);  // Hidupkan Relay 1 (aktif LOW)
-      Serial.println("Relay 1 ON");
-    }
-    else if (command == "OFF1") {
-      digitalWrite(RELAY1, HIGH); // Matikan Relay 1
-      Serial.println("Relay 1 OFF");
-    }
-
-    // Cek perintah untuk Relay 2
-    else if (command == "ON2") {
-      digitalWrite(RELAY2, LOW);  // Hidupkan Relay 2
-      Serial.println("Relay 2 ON");
-    }
-    else if (command == "OFF2") {
-      digitalWrite(RELAY2, HIGH); // Matikan Relay 2
-      Serial.println("Relay 2 OFF");
-    }
-    else {
-      Serial.println("Perintah tidak dikenal. Gunakan ON1, OFF1, ON2, atau OFF2.");
-    }
+BLYNK_WRITE(V0)
+{
+  SW_relay = param.asInt();
+  if (SW_relay == 1){
+    digitalWrite(relay, HIGH);
+    Serial.println("Relay terbuka");
+    Blynk.virtualWrite(V0, HIGH);
+  }else{
+    digitalWrite(relay, LOW);
+    Serial.println("Relay tertutup");
+    Blynk.virtualWrite(V0, LOW);
+  }
+}
+BLYNK_WRITE(V1)
+{
+  SW1_relay = param.asInt();
+  if (SW1_relay == 1){
+    digitalWrite(relay1, HIGH);
+    Serial.println("Relay1 OPEN");
+    Blynk.virtualWrite(V1, HIGH);
+  }else{
+    digitalWrite(relay1, LOW);
+    Serial.println("Relay1 CLOSE");
+    Blynk.virtualWrite(V1, LOW);
   }
 }
