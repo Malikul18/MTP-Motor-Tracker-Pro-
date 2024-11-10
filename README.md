@@ -1,6 +1,6 @@
 # Flyer MTP
 <div align="center">
-<img src = "Dokumentasi/flyer.png" width="250px">
+<img src = "Dokumentasi/flyer.png" width="750px">
   </div>
 # MTP-Motor-TrackerPro-
 <div align="center">
