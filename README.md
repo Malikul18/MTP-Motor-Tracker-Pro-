@@ -79,7 +79,7 @@ Motor Tracker Pro adalah solusi lengkap untuk pemantauan, keamanan, dan perawata
 ....(Coming Soon)....
 
 # Software
-##Pengujian Relay 2 Channel
+## Pengujian Relay 2 Channel sebagai Kunci dan Starter Sepeda Motor
 Program ini menggunakan *ESP32* untuk mengontrol dua relay melalui aplikasi *Blynk*. Relay adalah komponen elektronik yang berfungsi seperti saklar, yang bisa dikendalikan secara elektronik. Pada Projek ini Kontrol relay digunakan untuk menyalakan dan mematikan kunci dan starte sepeda motor menggunakan smartphone sebagai inovasi IoT dari salah satu fungsui MTP.Cara kerja program :
 1. ESP32 terhubung ke Wi-Fi dan aplikasi Blynk.
 2. Di aplikasi Blynk, pengguna mengontrol dua tombol virtual (V0 dan V1):
@@ -88,6 +88,8 @@ Program ini menggunakan *ESP32* untuk mengontrol dua relay melalui aplikasi *Bly
 3. Saat tombol ditekan, relay menyala (membuka sirkuit).
 4. Saat tombol dilepas, relay mati (menutup sirkuit).
 5. Status relay dikembalikan ke aplikasi Blynk dan ditampilkan di Serial Monitor.
+
+## Pengujian Sensor DS18B20 untuk Memantau Suhu Mesin Sepeda Motor
 
 
 
