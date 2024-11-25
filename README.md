@@ -90,6 +90,14 @@ Program ini menggunakan *ESP32* untuk mengontrol dua relay melalui aplikasi *Bly
 5. Status relay dikembalikan ke aplikasi Blynk dan ditampilkan di Serial Monitor.
 
 ## Pengujian Sensor DS18B20 untuk Memantau Suhu Mesin Sepeda Motor
+Program ini adalah implementasi *IoT* menggunakan ESP32 untuk membaca suhu mesin sepeda motor dari sensor *DS18B20* dan mengirimkan serta menampilkan datanya ke aplikasi *Blynk*. Cara Kerja Program :
+1. ESP32 terhubung ke Wi-Fi dan aplikasi Blynk.
+2. DS18B20 membaca suhu secara berkala (setiap 1 detik).
+3. Suhu yang terbaca:
+   - Ditampilkan di *Serial Monitor* untuk debugging.
+   - Dikirim ke aplikasi Blynk melalui *Virtual Pin V0*.
+4. Di aplikasi Blynk, suhu dapat dimonitor secara real-time.
+
 
 
 
