@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL667DMnRvl"
-#define BLYNK_TEMPLATE_NAME "Kontrol relay"
-#define BLYNK_AUTH_TOKEN "xYqn-lEY7k_U5ms9gfHdWRd1WVWdldYK"
+#define BLYNK_TEMPLATE_ID "TMPL6gpzdGcuz"
+#define BLYNK_TEMPLATE_NAME "Kunci Relay"
+#define BLYNK_AUTH_TOKEN "fu98OTmzLjvvY9Xmn6revk_N22ejEKPd"
 
 #include <WiFi.h>
 #include <WiFiClient.h>
@@ -12,9 +12,9 @@ BlynkTimer timer;
 int SW_relay = 0;
 int SW1_relay = 0;
 
-char auth[] = "xYqn-lEY7k_U5ms9gfHdWRd1WVWdldYK";
-const char* ssid = "Redmi Note 11 Pro";
-const char* pass = "gedegoblok";
+char auth[] = "fu98OTmzLjvvY9Xmn6revk_N22ejEKPd";
+const char* ssid = "--NamaSsidPerangkat--";
+const char* pass = "--PassWiFi--";
 
 void setup() {
   Serial.begin(9600);
@@ -43,16 +43,16 @@ BLYNK_WRITE(V0)
     Blynk.virtualWrite(V0, LOW);
   }
 }
-BLYNK_WRITE(V6)
+BLYNK_WRITE(V1)
 {
   SW1_relay = param.asInt();
   if (SW1_relay == 1){
     digitalWrite(relay1, HIGH);
     Serial.println("Relay1 terbuka");
-    Blynk.virtualWrite(V6, HIGH);
+    Blynk.virtualWrite(V1, HIGH);
   }else{
     digitalWrite(relay1, LOW);
     Serial.println("Relay1 tertutup");
-    Blynk.virtualWrite(V6, LOW);
+    Blynk.virtualWrite(V1, LOW);
   }
 }
