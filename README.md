@@ -71,7 +71,9 @@ Motor Tracker Pro adalah solusi lengkap untuk pemantauan, keamanan, dan perawata
 6. Module Step-Down
 
 # Diagram Arsitektur Sistem
-....(Coming Soon)....
+<div align="center">
+<img src = "Dokumentasi/Blok Diagram MTP.png" width="500px">
+  </div>
 
 # Hardware
 ....(Coming Soon)....
