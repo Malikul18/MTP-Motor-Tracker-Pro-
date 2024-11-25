@@ -16,8 +16,8 @@ DallasTemperature sensors(&oneWire);// Membuat instance dari DallasTemperature
 BlynkTimer timer;
 
 char auth[] = "M0G-asq9c1-Qyj-I_5InTObtkUO7urGc";
-const char* ssid = "Redmi Note 11 Pto";
-const char* pass = "12345678";
+const char* ssid = "--NamaSsidPerangkat--";
+const char* pass = "--PassWiFi--";
 
 void setup() {
   Blynk.begin(auth, ssid, pass);
