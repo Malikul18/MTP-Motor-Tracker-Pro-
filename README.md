@@ -101,12 +101,30 @@ Hasilnya, dengan Motor Tracker Pro, Anda mendapatkan kontrol penuh dan real-time
 - Vidio iklan [Motor Tracker Pro](https://youtube.com/shorts/t2EillxIgAg?feature=share)
 
 # Hardware
+## Prototype MTP
 <div align="center">
-<img src ="Asset/PCB MTP Layer Atas.jpg" width="500px">
+<img src ="Dokumentasi/Prototype MTP.jpg" width="500px">
 </div>
 <div align="center">
-<img src ="Asset/PCB MTP Layer Bawah.jpg" width="500px">
+<img src ="Dokumentasi/Perancangan Hardware.jpg" width="500px">
 </div>
+
+## Layout PCB MTP
+<div align="center">
+<img src ="Dokumentasi/Layout PCB Prototype.jpg" width="500px">
+</div>
+
+## Schematic PCB MTP
+<div align="center">
+<img src ="Dokumentasi/Schematic MTP.jpg" width="500px">
+</div>
+
+## Board PCB Layer Atas dan Bawah
+<div align="center">
+<img src ="Dokumentasi/Board PCB Layer atas dan Bawah.jpg" width="500px">
+</div>
+
+
 
 
 # Software
