@@ -72,6 +72,7 @@ Motor Tracker Pro adalah solusi lengkap untuk pemantauan, keamanan, dan perawata
 <div align="center">
 <img src = "Dokumentasi/Blok Diagram MTP.png" width="500px">
   </div>
+  
 ## Cara Kerja Motor Tracker Pro Secara Singkat**  
 1. Pelacakan Lokasi Real-Time  
    - Perangkat ini dilengkapi modul GPS (seperti ublox NEO-6M) yang mendeteksi lokasi motor.  
