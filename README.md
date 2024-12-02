@@ -99,6 +99,7 @@ Hasilnya, dengan Motor Tracker Pro, Anda mendapatkan kontrol penuh dan real-time
   
 # Youtube MTP 
 - Vidio iklan [Motor Tracker Pro](https://youtube.com/shorts/t2EillxIgAg?feature=share)
+- Vidio Presentasi [Presentasi Motor Tracker Pro](https://youtu.be/_fa9HbBBqg8?si=ezKUigorlg2BFhqz)
 
 # Hardware
 ## Prototype MTP
