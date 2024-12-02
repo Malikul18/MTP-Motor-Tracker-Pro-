@@ -7,9 +7,7 @@
   <img src = "Asset/Logo MTP.jpeg" alt="LOGO" width="200px"/>
 </div>
 
-## Optimalisasi Operasional dengan
-Pelacakan Realtime dan Kesehatan
-Kendaraan berbasis ESP 32
+## Optimalisasi Operasional dengan Pelacakan Realtime dan Kesehatan Kendaraan Berbasis ESP32
 
 MTP atau Motor Tracker Pro adalah perangkat pelacak motor canggih yang terhubung langsung dengan smartphone Anda, dirancang untuk memberikan kontrol dan pemantauan penuh terhadap kendaraan Anda. Fungsi utamanya adalah melacak lokasi motor secara real-time dan mencatat waktu setiap lokasi dikirimkan, sehingga Anda dapat memonitor pergerakan kendaraan dengan mudah.
 
