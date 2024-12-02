@@ -72,7 +72,10 @@ Motor Tracker Pro adalah solusi lengkap untuk pemantauan, keamanan, dan perawata
 <div align="center">
 <img src = "Dokumentasi/Blok Diagram MTP.png" width="500px">
   </div>
-#Vidio iklan MTP [Motor Tracker Pro](https://youtube.com/shorts/t2EillxIgAg?feature=share)
+
+  
+# Youtube MTP 
+- Vidio iklan [Motor Tracker Pro](https://youtube.com/shorts/t2EillxIgAg?feature=share)
 
 # Hardware
 <div align="center">
