@@ -268,6 +268,9 @@ Tampilan awal UI/UX MTP      |
 Untuk realisasi dari protoype menggunakan kodular 
 <src = "Program/MTP_tracking_GPS.aia">
 
+# Link Wokwi
+(https://wokwi.com/projects/411652017077715969)
+
 # Rincian Biaya
 | No  | Item                   | Jumlah | Harga   | Total   |
 |-----|------------------------|--------|---------|---------|
