@@ -72,6 +72,7 @@ Motor Tracker Pro adalah solusi lengkap untuk pemantauan, keamanan, dan perawata
 <div align="center">
 <img src = "Dokumentasi/Blok Diagram MTP.png" width="500px">
   </div>
+#Vidio iklan MTP [Motor Tracker Pro](https://youtube.com/shorts/t2EillxIgAg?feature=share)
 
 # Hardware
 <div align="center">
@@ -80,6 +81,7 @@ Motor Tracker Pro adalah solusi lengkap untuk pemantauan, keamanan, dan perawata
 <div align="center">
 <img src ="Asset/PCB MTP Layer Bawah.jpg" width="500px">
 </div>
+
 
 # Software
 ## Pengujian Relay 2 Channel sebagai Kunci dan Starter Sepeda Motor
