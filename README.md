@@ -101,7 +101,10 @@ Hasilnya, dengan Motor Tracker Pro, Anda mendapatkan kontrol penuh dan real-time
 # Youtube MTP 
 - Vidio iklan [Motor Tracker Pro](https://youtube.com/shorts/t2EillxIgAg?feature=share)
 - Vidio Presentasi Part 1 [Presentasi MTP 1](https://youtu.be/_fa9HbBBqg8?si=ezKUigorlg2BFhqz)
-- Vidio Presentasi Part  [Presentasi MTP 2](https://youtu.be/dOQvoxRiuMA?si=DrRlcXq3RNPgVKTd)
+- Vidio Presentasi Part 2 [Presentasi MTP 2](https://youtu.be/dOQvoxRiuMA?si=DrRlcXq3RNPgVKTd)
+- Vidio Pengujian Komponen DS18B20 [Pengujian Komponen DS18B20](https://youtu.be/Lpr0joNosio)
+- Vidio Pengujian Relay [Pengujian Relay](https://youtu.be/rNnlRDHxlcc)
+
 
 # Hardware
 ## Prototype MTP
