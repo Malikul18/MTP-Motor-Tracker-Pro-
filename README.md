@@ -264,6 +264,9 @@ Tampilan awal UI/UX MTP      |
 <img src = "Dokumentasi/Log in blank.png" width="250px"> | <img src = "Dokumentasi/Log in.png" width="250px">
 - [Figma](https://www.figma.com/design/K79DKEpYAUl1oy9ZEVzn8G/Prototyping-in-Figma?node-id=0-1&node-type=canvas&t=O9agAbHADH6BsXUb-0)
 - Prototype *MTP* menggunakan Figma untuk UI/UX adalah sebuah desain antarmuka interaktif yang bertujuan untuk memvisualisasikan konsep dan alur pengguna dari sebuah aplikasi atau sistem yang sedang dikembangkan. Prototipe ini memungkinkan pengguna atau pemangku kepentingan untuk memahami bagaimana aplikasi akan berfungsi, termasuk navigasi, tata letak, dan interaksi antar elemen di dalamnya. Dalam Figma, prototipe *MTP* dapat mencakup elemen-elemen seperti tombol, form input, menu, serta transisi antar halaman atau skenario pengguna.
+## Kodular 
+Untuk realisasi dari protoype menggunakan kodular 
+<src = "Program/MTP_tracking_GPS.aia">
 
 # Rincian Biaya
 | No  | Item                   | Jumlah | Harga   | Total   |
