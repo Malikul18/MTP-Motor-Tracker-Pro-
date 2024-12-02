@@ -72,7 +72,30 @@ Motor Tracker Pro adalah solusi lengkap untuk pemantauan, keamanan, dan perawata
 <div align="center">
 <img src = "Dokumentasi/Blok Diagram MTP.png" width="500px">
   </div>
+## Cara Kerja Motor Tracker Pro Secara Singkat**  
+1. Pelacakan Lokasi Real-Time  
+   - Perangkat ini dilengkapi modul GPS (seperti ublox NEO-6M) yang mendeteksi lokasi motor.  
+   - Informasi lokasi dikirim ke Broker HiveMQ lalu dilanjutkan ke Kodular 
+   - Data ini ditampilkan di aplikasi smartphone Anda dalam bentuk peta, sehingga Anda bisa memantau posisi motor kapan saja.  
 
+2. Kontrol Motor via Smartphone  
+   - Perangkat terhubung ke sistem starter motor melalui modul IoT.  
+   - Dengan aplikasi, Anda bisa mengirim perintah untuk menghidupkan motor atau mengunci starter.  
+   - Perintah dikirim melalui jaringan internet ke perangkat di motor, lalu dieksekusi secara otomatis.  
+
+3. Pemantauan Suhu dan Kelembapan Mesin  
+   - Sensor suhu dan kelembapan di perangkat membaca kondisi mesin motor.  
+   - Data ini dikirimkan ke aplikasi, membantu Anda memantau performa mesin dan mendeteksi potensi masalah lebih awal.  
+
+4. Riwayat Lokasi dan Pemberitahuan  
+   - Sistem mencatat setiap lokasi yang dilalui motor dan menyimpannya di server.  
+   - Anda bisa melihat riwayat pergerakan motor dan mendapatkan notifikasi saat motor berpindah tempat.  
+
+5. Keamanan Tambahan  
+   - Jika motor terdeteksi bergerak tanpa izin, Anda bisa segera mengunci starter melalui aplikasi.  
+   - Lokasi motor yang terus dilacak memudahkan Anda menemukan kendaraan jika hilang.  
+
+Hasilnya, dengan Motor Tracker Pro, Anda mendapatkan kontrol penuh dan real-time terhadap motor, baik untuk keamanan, kenyamanan, maupun perawatan mesin.
   
 # Youtube MTP 
 - Vidio iklan [Motor Tracker Pro](https://youtube.com/shorts/t2EillxIgAg?feature=share)
